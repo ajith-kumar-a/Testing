@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AmaxonProjectTestTest" project="JunitProject" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="ak.cal.AmaxonProjectTestTest" time="0.046" displayname="AmaxonProjectTestTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmaxonProjectTestTest]">
+    <testcase name="testLogo" classname="ak.cal.AmaxonProjectTestTest" time="0.041" displayname="testLogo()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmaxonProjectTestTest]/[method:testLogo()]"/>
+    <testcase name="testAmazonTagLine" classname="ak.cal.AmaxonProjectTestTest" time="0.003" displayname="testAmazonTagLine()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmaxonProjectTestTest]/[method:testAmazonTagLine()]"/>
+  </testsuite>
+</testrun>

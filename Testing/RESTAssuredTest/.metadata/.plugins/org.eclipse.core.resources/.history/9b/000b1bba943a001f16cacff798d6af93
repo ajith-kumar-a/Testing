@@ -1,0 +1,17 @@
+package com.APITesting;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class FirstTest {
+
+	@Test				// Execute Function 
+	public void GetAPITest() {
+		
+		RestAssured.get();
+		
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+package ak.cal;
+
+public class FastFoodRegistrationPage {
+	
+	public String UserName(String FirstName,String LastName) {
+		
+		return FirstName+" "+LastName;
+	}
+	
+	public String ContactNumber(int contactNum) {
+		
+		return "contactNum : "+contactNum;
+	}
+}

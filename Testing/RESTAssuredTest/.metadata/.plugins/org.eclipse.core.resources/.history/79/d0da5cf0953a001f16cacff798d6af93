@@ -1,0 +1,25 @@
+package com.APITesting;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class FirstTest {
+
+	@Test				// Execute Function 
+	public void GetAPITest() {
+
+		Response response =	RestAssured.get("http://localhost:8888/foodMenu");
+
+		System.out.println(response.getStatusCode());
+		System.out.println(response.getTime());
+		System.out.println(response.getBody().asString());
+		System.out.println(response.getStatusLine());
+		System.out.println(response.getHeader("content-type"));
+
+
+	}
+
+
+}

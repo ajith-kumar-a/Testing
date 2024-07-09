@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719921966792,1387,Thangavelu-College-Home-Page,200,OK,Thread Group 1-1,text,true,,9800,124,1,1,http://thangavelucolleges.com/,1377,0,565
+1719921968184,260,Profile-Page,200,OK,Thread Group 1-1,text,true,,7022,136,1,1,http://thangavelucolleges.com/profile.html,259,0,0
+1719921968444,263,Trust-Page,200,OK,Thread Group 1-1,text,true,,6600,134,1,1,http://thangavelucolleges.com/trust.html,263,0,0
+1719921968708,268,Training-Placement-Page,200,OK,Thread Group 1-1,text,true,,7845,148,1,1,http://thangavelucolleges.com/Training-Placements.html,268,0,0
+1719921968977,268,Course-Offered-Page,200,OK,Thread Group 1-1,text,true,,14758,144,1,1,http://thangavelucolleges.com/courses-offered.html,267,0,0
+1719921969245,268,Our-Recruiters,200,OK,Thread Group 1-1,text,true,,12150,143,1,1,http://thangavelucolleges.com/our-recruiters.html,268,0,0
+1719921969514,274,MOU-Page,200,OK,Thread Group 1-1,text,true,,13139,132,1,1,http://thangavelucolleges.com/mou.html,274,0,0
+1719921969790,265,Contact_us,200,OK,Thread Group 1-1,text,true,,6079,136,1,1,http://thangavelucolleges.com/contact.html,265,0,0
+1719921970056,266,Gallary_Page,200,OK,Thread Group 1-1,text,true,,9095,136,1,1,http://thangavelucolleges.com/gallery.html,266,0,0
+1719921970322,269,Enquiry-Page,200,OK,Thread Group 1-1,text,true,,14428,136,1,1,http://thangavelucolleges.com/enquiry.html,269,0,0

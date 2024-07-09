@@ -1,0 +1,17 @@
+package ak.cal;
+
+public class ConditionalAssumptions {
+
+	
+	public void OperationgSystem() {
+		System.out.println("I am using Windows 11");
+	}
+
+	public int value() {
+		
+		int i = 0;
+		System.out.println("Value : "i);
+		
+		return i;
+	}
+}

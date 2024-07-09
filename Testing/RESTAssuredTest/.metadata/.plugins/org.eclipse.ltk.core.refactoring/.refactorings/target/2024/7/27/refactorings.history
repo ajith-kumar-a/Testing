@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;target/classes/db.json&apos; to &apos;schem.json&apos;" description="Rename resource &apos;db.json&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="classes/db.json" name="schem.json" stamp="1720177222145" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;target/classes/schem.json&apos; to &apos;schema.json&apos;" description="Rename resource &apos;schem.json&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="classes/schem.json" name="schema.json" stamp="1720177566091" updateReferences="true"/>
+</session>

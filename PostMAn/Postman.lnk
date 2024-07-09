@@ -1,0 +1,208 @@
+{
+	"id": "10576c48-d704-4e96-81f3-2c26f280d0ee",
+	"name": "FoodCollection-1",
+	"timestamp": "2024-07-04T05:51:06.481Z",
+	"collection_id": "36734966-efd654a0-955f-4897-9d3d-e347e37bd0b0",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T05:51:04.732Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "b4a23449-1d33-41a4-ac4c-3399472ed467",
+			"name": "GetAllFoodDetail",
+			"url": "http://localhost:8888/foodMenu",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "987c6ec2-ea54-429e-9616-565c51287d18",
+			"name": "GetPizzaList",
+			"url": "http://localhost:8888/foodMenu/1",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d9b58494-0c42-41ac-b1c3-9e1d248461bc",
+			"name": "PutUpdateUser",
+			"url": "http://localhost:8888/users/6",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "d50fe454-cabe-4af5-995c-5710c4d3d239",
+			"name": "GetAllUser",
+			"url": "http://localhost:8888/users",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5ea96987-cbba-4e83-9724-eed417e80873",
+			"name": "PostCreateUser",
+			"url": "http://localhost:8888/users",
+			"time": 16,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0df21eef-60c1-4c78-98e5-99fe073d093e",
+			"name": "DeleteUser",
+			"url": "http://localhost:8888/users/6",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 41,
+	"collection": {
+		"requests": [
+			{
+				"id": "b4a23449-1d33-41a4-ac4c-3399472ed467",
+				"method": "GET"
+			},
+			{
+				"id": "987c6ec2-ea54-429e-9616-565c51287d18",
+				"method": "GET"
+			},
+			{
+				"id": "d9b58494-0c42-41ac-b1c3-9e1d248461bc",
+				"method": "PUT"
+			},
+			{
+				"id": "d50fe454-cabe-4af5-995c-5710c4d3d239",
+				"method": "GET"
+			},
+			{
+				"id": "5ea96987-cbba-4e83-9724-eed417e80873",
+				"method": "POST"
+			},
+			{
+				"id": "0df21eef-60c1-4c78-98e5-99fe073d093e",
+				"method": "DELETE"
+			}
+		]
+	}
+}

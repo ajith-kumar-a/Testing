@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AmazonCreateHomePAgeTest" project="JunitProject" tests="5" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="ak.cal.AmazonCreateHomePAgeTest" incomplete="true" displayname="AmazonCreateHomePAgeTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]">
+    <error>org.junit.platform.commons.JUnitException: @AfterAll method 'void ak.cal.AmazonCreateHomePAgeTest.init1(org.junit.jupiter.api.TestInfo,org.junit.jupiter.api.TestReporter)' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    <testcase name="testMobNoAndEmailId" classname="ak.cal.AmazonCreateHomePAgeTest" incomplete="true" displayname="testMobNoAndEmailId()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testMobNoAndEmailId()]"/>
+    <testcase name="testContinueButton" classname="ak.cal.AmazonCreateHomePAgeTest" incomplete="true" displayname="testContinueButton()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testContinueButton()]"/>
+    <testcase name="init1" classname="ak.cal.AmazonCreateHomePAgeTest" incomplete="true" displayname="init1(TestInfo, TestReporter)" parameters="org.junit.jupiter.api.TestInfo,org.junit.jupiter.api.TestReporter" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:init1(org.junit.jupiter.api.TestInfo, org.junit.jupiter.api.TestReporter)]"/>
+    <testcase name="testUserName" classname="ak.cal.AmazonCreateHomePAgeTest" incomplete="true" displayname="testUserName()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testUserName()]"/>
+    <testcase name="testPassword" classname="ak.cal.AmazonCreateHomePAgeTest" incomplete="true" displayname="testPassword()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testPassword()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+endpoint,emailId,userPass
+http://localhost:8888/users,admin@gmail.com,admin@123
+http://localhost:8888/users,hr@gmail.com,hr@123
+http://localhost:8888/users,user@gmail.com,user@123
+http://localhost:8888/users,ajith619006@gmail.com,Ajith@123

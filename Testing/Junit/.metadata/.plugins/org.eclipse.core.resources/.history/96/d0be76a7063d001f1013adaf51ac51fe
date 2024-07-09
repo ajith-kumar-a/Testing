@@ -1,0 +1,31 @@
+package ak.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class FastFoodRegistrationPageTest {
+	
+	FastFoodRegistrationPage fastFoodRegistrationPage;
+	
+	
+	@BeforeEach 
+	void init() {
+		  
+		fastFoodRegistrationPage = new FastFoodRegistrationPage();
+		  
+	}
+
+	@Test
+	void testUserName() {
+		Scanner sc = new Scanner(System.in);
+		
+		String expectedName = "Ajith Kumar";
+		String actualName = fastFoodRegistrationPage.UserName(sc.nextLine(), sc.nextLine());
+		
+	}
+
+}

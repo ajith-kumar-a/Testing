@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LifeCycleAnnotationTest" project="JunitProject" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="ak.cal.LifeCycleAnnotationTest" time="0.069" displayname="LifeCycleAnnotationTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]">
+    <testcase name="testCube" classname="ak.cal.LifeCycleAnnotationTest" time="0.034" displayname="testCube()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[method:testCube()]"/>
+    <testcase name="testPositive" classname="ak.cal.LifeCycleAnnotationTest" time="0.029" displayname="testPositive()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[method:testPositive()]">
+      <failure>
+        <expected>25</expected>
+        <actual>125</actual>
+        org.opentest4j.AssertionFailedError: Pass ==&gt; expected: &lt;25&gt; but was: &lt;125&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)&#13;
+	at ak.cal.LifeCycleAnnotationTest.testPositive(LifeCycleAnnotationTest.java:69)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testSquare" classname="ak.cal.LifeCycleAnnotationTest" time="0.003" displayname="testSquare()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[method:testSquare()]"/>
+  </testsuite>
+</testrun>

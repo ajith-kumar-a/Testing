@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ConditionalAssumptionsTest" project="JunitProject" tests="2" started="2" failures="0" errors="0" ignored="1">
+  <testsuite name="ak.cal.ConditionalAssumptionsTest" time="0.031" displayname="ConditionalAssumptionsTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.ConditionalAssumptionsTest]">
+    <testcase name="testOS" classname="ak.cal.ConditionalAssumptionsTest" time="0.0" ignored="true" displayname="testOS()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.ConditionalAssumptionsTest]/[method:testOS()]"/>
+    <testcase name="testMultiply" classname="ak.cal.ConditionalAssumptionsTest" time="0.031" displayname="testMultiply()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.ConditionalAssumptionsTest]/[method:testMultiply()]"/>
+  </testsuite>
+</testrun>

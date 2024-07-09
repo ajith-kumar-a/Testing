@@ -1,0 +1,11 @@
+package ak.cal;
+
+public class CalculatorProject {
+	
+	public int add(int a, int b) {
+		
+		return a+b;
+	}
+
+	
+}

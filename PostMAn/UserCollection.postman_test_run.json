@@ -1,0 +1,207 @@
+{
+	"id": "2e93f981-53f5-4cf3-8669-f43d0cb1a57b",
+	"name": "UserCollection",
+	"timestamp": "2024-07-05T04:28:52.559Z",
+	"collection_id": "36734966-b8b7c36d-0c9e-4f40-a10b-d5e102f41bd7",
+	"folder_id": 0,
+	"environment_id": "36734966-d25d81b7-3360-4b96-b6e9-ffc43a2c0dfe",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-05T04:28:48.992Z",
+	"totalFail": 11,
+	"results": [
+		{
+			"id": "0df21eef-60c1-4c78-98e5-99fe073d093e",
+			"name": "DeleteUser",
+			"url": "http://localhost:8888/users/9ec3",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 5
+				}
+			},
+			"times": [
+				18,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "d50fe454-cabe-4af5-995c-5710c4d3d239",
+			"name": "GetAllUser",
+			"url": "http://localhost:8888/users",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d9b58494-0c42-41ac-b1c3-9e1d248461bc",
+			"name": "PutUpdateUser",
+			"url": "http://localhost:8888/users/9ec3",
+			"time": 95,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 6
+				}
+			},
+			"times": [
+				5,
+				4,
+				5,
+				4,
+				9,
+				95
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "2219e001-b333-46f8-af72-094981df6ac2",
+			"name": "GetUserContact",
+			"url": "http://localhost:8888/userContact",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4,
+				3,
+				4,
+				4,
+				4,
+				3
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 6,
+	"totalTime": 206,
+	"collection": {
+		"requests": [
+			{
+				"id": "0df21eef-60c1-4c78-98e5-99fe073d093e",
+				"method": "DELETE"
+			},
+			{
+				"id": "d50fe454-cabe-4af5-995c-5710c4d3d239",
+				"method": "GET"
+			},
+			{
+				"id": "d9b58494-0c42-41ac-b1c3-9e1d248461bc",
+				"method": "PUT"
+			},
+			{
+				"id": "2219e001-b333-46f8-af72-094981df6ac2",
+				"method": "GET"
+			}
+		]
+	}
+}

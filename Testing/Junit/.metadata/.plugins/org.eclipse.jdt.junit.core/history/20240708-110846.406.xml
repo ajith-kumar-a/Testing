@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorProjectTest" project="JunitProject" tests="5" started="5" failures="2" errors="0" ignored="0">
+  <testsuite name="ak.cal.CalculatorProjectTest" time="0.086" displayname="CalculatorProjectTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.CalculatorProjectTest]">
+    <testcase name="subTest" classname="ak.cal.CalculatorProjectTest" time="0.048" displayname="subTest()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.CalculatorProjectTest]/[method:subTest()]"/>
+    <testcase name="AreaOfCircleTest" classname="ak.cal.CalculatorProjectTest" time="0.022" displayname="AreaOfCircleTest()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.CalculatorProjectTest]/[method:AreaOfCircleTest()]">
+      <failure>
+        <expected>3.14</expected>
+        <actual>314.1592653589793</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;3.14&gt; but was: &lt;314.1592653589793&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at ak.cal.CalculatorProjectTest.AreaOfCircleTest(CalculatorProjectTest.java:49)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="addtest" classname="ak.cal.CalculatorProjectTest" time="0.001" displayname="addtest()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.CalculatorProjectTest]/[method:addtest()]"/>
+    <testcase name="mulTest" classname="ak.cal.CalculatorProjectTest" time="0.001" displayname="mulTest()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.CalculatorProjectTest]/[method:mulTest()]"/>
+    <testcase name="divTest" classname="ak.cal.CalculatorProjectTest" time="0.008" displayname="divTest()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.CalculatorProjectTest]/[method:divTest()]">
+      <failure>
+        <expected>class java.lang.NullPointerException</expected>
+        <actual>class java.lang.ArithmeticException</actual>
+        org.opentest4j.AssertionFailedError: Div Function can calculate two integer ==&gt; Unexpected exception type thrown, expected: &lt;java.lang.NullPointerException&gt; but was: &lt;java.lang.ArithmeticException&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:39)&#13;
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3131)&#13;
+	at ak.cal.CalculatorProjectTest.divTest(CalculatorProjectTest.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+Caused by: java.lang.ArithmeticException: / by zero&#13;
+	at ak.cal.CalculatorProject.div(CalculatorProject.java:25)&#13;
+	at ak.cal.CalculatorProjectTest.lambda$0(CalculatorProjectTest.java:43)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)&#13;
+	... 6 more&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LifeCycleAnnotationTest" project="JunitProject" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="ak.cal.LifeCycleAnnotationTest" time="0.038" displayname="LifeCycleAnnotationTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]">
+    <testsuite name="ak.cal.LifeCycleAnnotationTest$testPositiveNmuber" time="0.038" displayname="testPositiveNmuber" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[nested-class:testPositiveNmuber]">
+      <testcase name="testNegetiveNo" classname="ak.cal.LifeCycleAnnotationTest.testPositiveNmuber" time="0.035" displayname="testNegetiveNo()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[nested-class:testPositiveNmuber]/[method:testNegetiveNo()]"/>
+      <testcase name="testPositiveNo" classname="ak.cal.LifeCycleAnnotationTest.testPositiveNmuber" time="0.002" displayname="testPositiveNo()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[nested-class:testPositiveNmuber]/[method:testPositiveNo()]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

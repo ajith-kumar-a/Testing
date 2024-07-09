@@ -1,0 +1,33 @@
+package ak.cal;
+
+public class FastFoodRegistrationPage {
+	
+	public String UserName(String FirstName,String LastName) {
+		
+		if(FirstName.trim() == "" || LastName.trim() == "")
+			retun "Error";
+		
+		return FirstName+" "+LastName;
+	}
+	
+	public String ContactNumber(int contactNum) {
+		
+		return "ContactNum : "+contactNum;
+	}
+	
+	public String EmailId(String emailId) {
+		
+		return "EmailId : "+emailId; 
+	}
+	
+	public boolean CheckPassword(String pass) {
+		
+		return pass.length() == 6;
+	}
+	
+	public boolean clickContinue(String name, String email, String password) {
+		
+		return true;
+	}
+	
+}

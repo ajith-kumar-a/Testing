@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LifeCycleAnnotationTest" project="JunitProject" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="ak.cal.LifeCycleAnnotationTest" time="0.054" displayname="LifeCycleAnnotationTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]">
+    <testsuite name="ak.cal.LifeCycleAnnotationTest$testPositiveNmuber" time="0.054" displayname="testPositiveNmuber" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[nested-class:testPositiveNmuber]">
+      <testcase name="testNegetiveNo" classname="ak.cal.LifeCycleAnnotationTest.testPositiveNmuber" time="0.047" displayname="testNegetiveNo()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[nested-class:testPositiveNmuber]/[method:testNegetiveNo()]">
+        <error>java.lang.NullPointerException: Cannot invoke "ak.cal.LifeCycleAnnotation.positive(int, int)" because "this.this$0.lifeCycleAnnotation" is null&#13;
+	at ak.cal.LifeCycleAnnotationTest$testPositiveNmuber.testNegetiveNo(LifeCycleAnnotationTest.java:69)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="testPositiveNo" classname="ak.cal.LifeCycleAnnotationTest.testPositiveNmuber" time="0.006" displayname="testPositiveNo()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.LifeCycleAnnotationTest]/[nested-class:testPositiveNmuber]/[method:testPositiveNo()]">
+        <error>java.lang.NullPointerException: Cannot invoke "ak.cal.LifeCycleAnnotation.positive(int, int)" because "this.this$0.lifeCycleAnnotation" is null&#13;
+	at ak.cal.LifeCycleAnnotationTest$testPositiveNmuber.testPositiveNo(LifeCycleAnnotationTest.java:63)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

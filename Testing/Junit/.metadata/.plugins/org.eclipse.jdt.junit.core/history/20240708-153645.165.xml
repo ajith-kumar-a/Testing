@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AmazonCreateHomePAgeTest" project="JunitProject" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="ak.cal.AmazonCreateHomePAgeTest" time="0.14" displayname="AmazonCreateHomePAgeTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]">
+    <testcase name="testMobNoAndEmailId" classname="ak.cal.AmazonCreateHomePAgeTest" time="0.134" displayname="testMobNoAndEmailId()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testMobNoAndEmailId()]"/>
+    <testcase name="testContinueButton" classname="ak.cal.AmazonCreateHomePAgeTest" time="0.004" displayname="testContinueButton()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testContinueButton()]"/>
+  </testsuite>
+</testrun>

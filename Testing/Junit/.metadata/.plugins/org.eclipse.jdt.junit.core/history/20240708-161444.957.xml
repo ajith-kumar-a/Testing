@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AmazonCreateHomePAgeTest" project="JunitProject" tests="5" started="5" failures="2" errors="0" ignored="0">
+  <testsuite name="ak.cal.AmazonCreateHomePAgeTest" time="69.559" displayname="AmazonCreateHomePAgeTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]">
+    <testcase name="testMobNoAndEmailId" classname="ak.cal.AmazonCreateHomePAgeTest" time="0.087" displayname="testMobNoAndEmailId()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testMobNoAndEmailId()]"/>
+    <testcase name="testContinueButton" classname="ak.cal.AmazonCreateHomePAgeTest" time="0.019" displayname="testContinueButton()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testContinueButton()]">
+      <failure>
+        <expected>true</expected>
+        <actual>false</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)&#13;
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)&#13;
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)&#13;
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)&#13;
+	at ak.cal.AmazonCreateHomePAgeTest.testContinueButton(AmazonCreateHomePAgeTest.java:97)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="init1" classname="ak.cal.AmazonCreateHomePAgeTest" time="0.142" displayname="init1(TestInfo, TestReporter)" parameters="org.junit.jupiter.api.TestInfo,org.junit.jupiter.api.TestReporter" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:init1(org.junit.jupiter.api.TestInfo, org.junit.jupiter.api.TestReporter)]"/>
+    <testcase name="testUserName" classname="ak.cal.AmazonCreateHomePAgeTest" time="69.302" displayname="testUserName()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testUserName()]">
+      <failure>
+        <expected>Ajith Kumar</expected>
+        <actual>Ajith  Kumar</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Ajith Kumar&gt; but was: &lt;Ajith  Kumar&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)&#13;
+	at ak.cal.AmazonCreateHomePAgeTest.testUserName(AmazonCreateHomePAgeTest.java:33)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testPassword" classname="ak.cal.AmazonCreateHomePAgeTest" time="0.002" displayname="testPassword()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.AmazonCreateHomePAgeTest]/[method:testPassword()]"/>
+  </testsuite>
+</testrun>

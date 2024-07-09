@@ -1,0 +1,20 @@
+package ak.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CalculatorProjectTest {
+
+	@Test
+	void test() {
+		
+		CalculatorProject cal = new CalculatorProject();
+		
+		int expected = 2;
+		int actual = cal.add(1, 1);
+		
+		assertEquals(expected,actual);)
+	}
+
+}

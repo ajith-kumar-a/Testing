@@ -1,0 +1,428 @@
+{
+	"id": "d92683f2-6e84-4f3d-98b7-d0ce3a9f06b8",
+	"name": "FoodCollection-1",
+	"timestamp": "2024-07-04T06:06:01.570Z",
+	"collection_id": "36734966-efd654a0-955f-4897-9d3d-e347e37bd0b0",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 40,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2024-07-04T06:05:54.684Z",
+	"totalFail": 20,
+	"results": [
+		{
+			"id": "b4a23449-1d33-41a4-ac4c-3399472ed467",
+			"name": "GetAllFoodDetail",
+			"url": "http://localhost:8888/foodMenu",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				11,
+				3,
+				5,
+				4,
+				4,
+				3,
+				4,
+				5,
+				5,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "987c6ec2-ea54-429e-9616-565c51287d18",
+			"name": "GetPizzaList",
+			"url": "http://localhost:8888/foodMenu/1",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				4,
+				12,
+				5,
+				4,
+				4,
+				4,
+				3,
+				4,
+				4,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d9b58494-0c42-41ac-b1c3-9e1d248461bc",
+			"name": "PutUpdateUser",
+			"url": "http://localhost:8888/users/6",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 10
+				}
+			},
+			"times": [
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				4,
+				4,
+				4,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "d50fe454-cabe-4af5-995c-5710c4d3d239",
+			"name": "GetAllUser",
+			"url": "http://localhost:8888/users",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				4,
+				4,
+				5,
+				4,
+				4,
+				3,
+				4,
+				3,
+				4,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5ea96987-cbba-4e83-9724-eed417e80873",
+			"name": "PostCreateUser",
+			"url": "http://localhost:8888/users",
+			"time": 70,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				15,
+				20,
+				14,
+				18,
+				22,
+				16,
+				17,
+				17,
+				19,
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0df21eef-60c1-4c78-98e5-99fe073d093e",
+			"name": "DeleteUser",
+			"url": "http://localhost:8888/users/6",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 10
+				}
+			},
+			"times": [
+				3,
+				4,
+				4,
+				4,
+				3,
+				5,
+				4,
+				4,
+				11,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 455,
+	"collection": {
+		"requests": [
+			{
+				"id": "b4a23449-1d33-41a4-ac4c-3399472ed467",
+				"method": "GET"
+			},
+			{
+				"id": "987c6ec2-ea54-429e-9616-565c51287d18",
+				"method": "GET"
+			},
+			{
+				"id": "d9b58494-0c42-41ac-b1c3-9e1d248461bc",
+				"method": "PUT"
+			},
+			{
+				"id": "d50fe454-cabe-4af5-995c-5710c4d3d239",
+				"method": "GET"
+			},
+			{
+				"id": "5ea96987-cbba-4e83-9724-eed417e80873",
+				"method": "POST"
+			},
+			{
+				"id": "0df21eef-60c1-4c78-98e5-99fe073d093e",
+				"method": "DELETE"
+			},
+			{
+				"id": "5b463cdb-12ae-4bfb-9970-0cc2bb9af46b",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+package ak.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class AmazonCreateHomePAgeTest {
+
+	AmazonCreateHomePAge amazonCreateHomePAge;
+	Scanner sc;
+	
+	@BeforeEach 
+	void init() {
+		  
+		amazonCreateHomePAge = new AmazonCreateHomePAge();
+		sc = new Scanner(System.in);
+	}
+
+	@Test
+	void testUserName() {
+		
+		
+		String expectedName = "Ajith Kumar";
+		System.out.print("Enter First Name : ");
+		String FirstName = sc.nextLine();
+		System.out.print("Enter Last Name : ");
+		String LastName = sc.nextLine();
+		String actualName = amazonCreateHomePAge.YourName(FirstName , LastName);
+		
+		assertEquals(expectedName,actualName);
+		
+	}
+	
+	@Test
+	Void testMobNoAndEmailId() {
+		
+		long expectedMobNo = 9380410103l;
+		String expetedEmailId = "abcd@gmail.com";
+	}
+}

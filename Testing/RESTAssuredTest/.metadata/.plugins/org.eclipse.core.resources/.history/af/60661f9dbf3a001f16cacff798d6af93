@@ -1,0 +1,16 @@
+package com.APITesting;
+import static io.restassured.RestAssured.*;   // Make a static to RestAssured Package
+
+
+public class JSONSchemValidator {
+
+	
+	public void testGet1() {
+		
+		baseURI = "";
+		
+		given().get("").
+		then().
+		assertThat().body(matchesJsonSchemaInClassPath("schema.json")).statusCode(200));
+	}
+}

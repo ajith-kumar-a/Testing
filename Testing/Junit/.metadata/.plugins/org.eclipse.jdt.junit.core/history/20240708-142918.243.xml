@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FastFoodRegistrationPageTest" project="JunitProject" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="ak.cal.FastFoodRegistrationPageTest" time="19.302" displayname="FastFoodRegistrationPageTest" uniqueid="[engine:junit-jupiter]/[class:ak.cal.FastFoodRegistrationPageTest]">
+    <testcase name="testContactNumber" classname="ak.cal.FastFoodRegistrationPageTest" time="12.84" displayname="testContactNumber()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.FastFoodRegistrationPageTest]/[method:testContactNumber()]">
+      <failure>
+        <expected>ContactNum : 9380410103</expected>
+        <actual>ContactNum : 9380410103</actual>
+        org.opentest4j.AssertionFailedError: expected: java.lang.String@610f7aa&lt;ContactNum : 9380410103&gt; but was: java.lang.String@6a03bcb1&lt;ContactNum : 9380410103&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:50)&#13;
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:35)&#13;
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:30)&#13;
+	at org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2860)&#13;
+	at ak.cal.FastFoodRegistrationPageTest.testContactNumber(FastFoodRegistrationPageTest.java:46)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testUserName" classname="ak.cal.FastFoodRegistrationPageTest" time="6.461" displayname="testUserName()" uniqueid="[engine:junit-jupiter]/[class:ak.cal.FastFoodRegistrationPageTest]/[method:testUserName()]"/>
+  </testsuite>
+</testrun>

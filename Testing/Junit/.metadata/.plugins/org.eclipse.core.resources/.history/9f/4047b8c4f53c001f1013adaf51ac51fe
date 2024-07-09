@@ -1,0 +1,16 @@
+package ak.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class LifeCycleAnnotationTest {
+	
+	LifeCycleAnnotation lifeCycleAnnotation;
+
+	@Test
+	void test() {
+		
+	}
+
+}
